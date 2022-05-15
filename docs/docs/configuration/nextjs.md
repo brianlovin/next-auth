@@ -123,5 +123,4 @@ The `middleware` function will only be invoked if the `authorized` callback retu
 
 ### Caveats
 
-- Currently only supports session verification, as parts of the sign-in code need to run in a Node.js environment. In the future, we would like to make sure that NextAuth.js can fully run at the [Edge](https://nextjs.org/docs/api-reference/edge-runtime)
-- Only supports the `"jwt"` [session strategy](/configuration/options#session). We need to wait until databases at the Edge become mature enough to ensure a fast experience. (If you know of an Edge-compatible database, we would like if you proposed a new [Adapter](/tutorials/creating-a-database-adapter))
+- Only supports the `"jwt"` [session strategy](/configuration/options#session). We need to wait until databases at the Edge become mature enough to ensure a fast experience. In the future, we would like to make sure that NextAuth.js can fully run at the [Edge](https://nextjs.org/docs/api-reference/edge-runtime). (If you know of an Edge-compatible database, we would like if you proposed a new [Adapter](/tutorials/creating-a-database-adapter))
